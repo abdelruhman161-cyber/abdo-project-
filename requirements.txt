@@ -1,0 +1,37 @@
+# --- BACKEND & CORE ---
+fastapi==0.109.0
+uvicorn==0.27.0
+pydantic[email]==2.6.0
+python-multipart==0.0.6
+
+# --- SECURITY & AUTH ---
+cryptography==42.0.2
+passlib[bcrypt]==1.7.4
+PyJWT==2.8.0
+
+# --- AI & LOGIC (Updated for Python 3.12) ---
+google-generativeai==0.3.2
+numpy==1.26.3
+snowflake-snowpark-python>=1.20.0
+snowflake-ml-python>=1.5.0
+
+# --- MARKET & DATA ---
+yfinance==0.2.36
+altair==5.2.0
+pandas==2.2.0
+scipy==1.12.0
+
+# --- FRONTEND (STREAMLIT) ---
+streamlit>=1.40.0
+requests==2.31.0
+plotly==5.18.0
+watchdog==4.0.0
+
+# --- HARDWARE & ASYNC ---
+bleak==0.21.1
+aiohttp==3.9.3
+aiosqlite==0.19.0
+
+# --- UTILS ---
+python-dotenv
+htbuilder
